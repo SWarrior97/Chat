@@ -184,8 +184,10 @@ io.on('connection', socket => {
 })
 
 const PORT = process.env.PORT || 3000
+const HOSTNAME = ip.address();
 
 server.listen(
   PORT,
+  HOSTNAME,
   console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`)
 )
