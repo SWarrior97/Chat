@@ -139,6 +139,10 @@ a {
 	background-color: var(--dark-color-a);
 }
 
+.chatMessage{
+	color:white;
+}
+
 .chat-form-container form {
 	display: flex;
 }
